@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto';
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -21,7 +25,49 @@ img{
 }
 
 main{
-    background: #E5E5E5;
+    background:#F3F3F3;
     height: 500px;
     width: 375px;
+}
+
+footer{
+    width: 375px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05)
+}
+input{
+    width: 368px;
+    height: 80px;
+    border-style: none;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+input::placeholder{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+button{
+    background-color: white;
+    border-style: none;
+    position: absolute;
+    left: 300px; 
+    top:590px; 
+    cursor: pointer;
+}
+.vector2{
+    width: 26px;
+    height: 26px;
+}
+
+.enter{
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 40px;
+    background-color:#DCDCDC;
+    margin-top: 20px;
 }

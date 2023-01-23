@@ -7,20 +7,34 @@
     <title>Bate Papo UOL</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <img src="img/logo 1.png">
-        <img class="vector" src="img/Vector (4).png">
+        <img class="vector" src="img/icon.png">
     </header>
 
 
     <main>
-        <div>
-            
-        </div>
+       
     </main>
 
+    <footer>
+        <div>
+            <input data-test="input-message" class="inputValue" type="text" placeholder="Escreva aqui...">
+        </div>
+
+        <div>
+            <button onclick="message()" data-test="send-message" type="submit"><img class="vector2" src="img/icon2.png"></button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <script src="script.js"></script>
+
+    
 </body>
 </html>
